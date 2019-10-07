@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="slide-container">
             <Zoom {...zoomOutProperties}>
                 {
-                    images.map((each, index) => <img key={index} style={{ width: "100%", height: "70vh", objectFit: "cover" }} src={each} />)
+                    images.map((each, index) => <img key={index} alt="hero img" style={{ width: "100%", height: "calc(100vh - 200px)", objectFit: "cover" }} src={each} />)
                 }
             </Zoom>
             <section className="hero">
