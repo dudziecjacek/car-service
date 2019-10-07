@@ -5,7 +5,6 @@
 
 .contact {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     max-width: 1200px;
@@ -14,20 +13,19 @@
 }
 
 .contact__div {
-    flex-grow: 1;
-    border: 1px solid black;
+    flex-basis: 25%;
+}
+
+.contact__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact__logo {
     flex-grow: 0;
-    flex-basis: 10%;
-}
-
-.location,
-.hours {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-basis: 20%;
+    justify-content: flex-start;
 }
 
 .contact__header {
@@ -45,7 +43,7 @@
     text-align: left;
     display: flex;
     justify-content: flex-start;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .contact__icon {
@@ -57,10 +55,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
-.hours .contact__icon {
+.contact__div .contact__icon {
     margin-left: 0;
     margin-right: 10px;
 }
