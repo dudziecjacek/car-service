@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/car-service/static/css/main.b100e6da.chunk.css",
-    "main.js": "/car-service/static/js/main.d99e0d3e.chunk.js",
-    "main.js.map": "/car-service/static/js/main.d99e0d3e.chunk.js.map",
+    "main.js": "/car-service/static/js/main.3e90a182.chunk.js",
+    "main.js.map": "/car-service/static/js/main.3e90a182.chunk.js.map",
     "runtime-main.js": "/car-service/static/js/runtime-main.e372b0c6.js",
     "runtime-main.js.map": "/car-service/static/js/runtime-main.e372b0c6.js.map",
     "static/js/2.e5e70bbf.chunk.js": "/car-service/static/js/2.e5e70bbf.chunk.js",
     "static/js/2.e5e70bbf.chunk.js.map": "/car-service/static/js/2.e5e70bbf.chunk.js.map",
     "index.html": "/car-service/index.html",
-    "precache-manifest.341749c82c81d56d54507c5473b1cbb3.js": "/car-service/precache-manifest.341749c82c81d56d54507c5473b1cbb3.js",
+    "precache-manifest.e4533dc38ec489fb100a0ce68e0dba69.js": "/car-service/precache-manifest.e4533dc38ec489fb100a0ce68e0dba69.js",
     "service-worker.js": "/car-service/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/car-service/static/css/main.b100e6da.chunk.css.map",
     "static/media/logo.svg": "/car-service/static/media/logo.25bf045c.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e372b0c6.js",
     "static/js/2.e5e70bbf.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.d99e0d3e.chunk.js"
+    "static/js/main.3e90a182.chunk.js"
   ]
 }

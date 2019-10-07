@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "927beacd0db7b615b87b3bf4793412bb",
+    "revision": "74af9c6ef7697dde399927cfe49e2205",
     "url": "/car-service/index.html"
   },
   {
-    "revision": "fc78364b07c10f321b66",
+    "revision": "a3a92c57991a4cc2cc82",
     "url": "/car-service/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/car-service/static/js/2.e5e70bbf.chunk.js"
   },
   {
-    "revision": "fc78364b07c10f321b66",
-    "url": "/car-service/static/js/main.d99e0d3e.chunk.js"
+    "revision": "a3a92c57991a4cc2cc82",
+    "url": "/car-service/static/js/main.3e90a182.chunk.js"
   },
   {
     "revision": "093099d5c010518a6a2c",
