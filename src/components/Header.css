@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(232, 232, 232);
+}
+
+.contact__div {
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.contact__logo {
+    flex-grow: 0;
+    flex-basis: 10%;
+}
+
+.location,
+.hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__header {
+    font-weight: normal;
+}
+
+.contact__div--left {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.contact__div--right {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.contact__icon {
+    font-size: 30px;
+    border: 3px solid orange;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.hours .contact__icon {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.contact__clock {
+    color: orange;
+
+}
