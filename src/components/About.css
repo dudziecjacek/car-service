@@ -1,5 +1,7 @@
 .about {
+    /* padding: 100px 20px; */
     display: flex;
+    /* background-color: #ddd; */
 }
 
 .about__textContainer {

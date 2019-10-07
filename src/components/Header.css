@@ -32,6 +32,10 @@
     font-weight: normal;
 }
 
+.contact__paragraph {
+    font-weight: bold;
+}
+
 .contact__div--left {
     text-align: right;
     display: flex;

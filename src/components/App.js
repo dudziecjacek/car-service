@@ -5,6 +5,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Services from './Services'
 import About from './About'
+import Carousel from './Carousel'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <Carousel />
       <About />
     </div>
   );

@@ -1,0 +1,12 @@
+.carousel {
+    background: linear-gradient(0deg, rgba(70, 70, 70, 0.5), rgba(70, 70, 70, 0.5)), url('../img/background-pattern.png');
+    padding: 20px;
+}
+
+.carousel-container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid rgb(70, 70, 70);
+    /* overflow: hidden; */
+}
