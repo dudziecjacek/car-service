@@ -1,0 +1,48 @@
+.about {
+    display: flex;
+}
+
+.about__textContainer {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: rgb(70, 70, 70);
+    text-align: left;
+    color: white;
+    font-weight: light;
+}
+
+.about__imgContainer {
+    /* padding: 20px; */
+    width: 50%;
+    /* margin-right: 20px; */
+    height: 250px;
+    background-image: url('../img/about.jpg');
+    background-color: rgb(70, 70, 70);
+    overflow: hidden;
+
+    display: block;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.about__list {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 40px;
+}
+
+.about__item {
+    cursor: pointer;
+    list-style-image: url('../img/list.png');
+    flex-basis: 50%;
+    transition: .2s;
+}
+
+.about__item:hover {
+    color: orange;
+}

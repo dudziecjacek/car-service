@@ -4,6 +4,7 @@ import Header from './Header'
 import Hero from './Hero'
 import Navbar from './Navbar'
 import Services from './Services'
+import About from './About'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <About />
     </div>
   );
 }

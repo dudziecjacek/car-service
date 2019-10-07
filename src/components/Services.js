@@ -17,7 +17,7 @@ class Services extends React.Component {
 
     render() {
         return (
-            <section className="services">
+            <section className="services scrollToHere" id="services" ref={this.myRef} >
                 <div className="services__container">
                     <img className="services__img" src={service1} alt="service" />
                     <div className="services__inner">

@@ -13,7 +13,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <section className="contact">
+            <section className="contact" id="contact">
                 <div className="contact__div contact__logo">
                     <img src={logo} alt="logo" />
                 </div>
