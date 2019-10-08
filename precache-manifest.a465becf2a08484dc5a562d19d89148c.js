@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76d9439b530fb4a1116bc3154a402b9a",
+    "revision": "5e6548beb9ce8739ea3da3becf0e6134",
     "url": "/car-service/index.html"
   },
   {
-    "revision": "5f6064cd44087e9cf745",
-    "url": "/car-service/static/css/2.38a7b9c5.chunk.css"
+    "revision": "f581f4f50e3a79983f20",
+    "url": "/car-service/static/css/2.9ebbbe98.chunk.css"
   },
   {
-    "revision": "52e53e13ea8e84e0fa64",
-    "url": "/car-service/static/css/main.12ba5f78.chunk.css"
+    "revision": "c4ee57602782013d0ad7",
+    "url": "/car-service/static/css/main.3e8a4933.chunk.css"
   },
   {
-    "revision": "5f6064cd44087e9cf745",
-    "url": "/car-service/static/js/2.c280d469.chunk.js"
+    "revision": "f581f4f50e3a79983f20",
+    "url": "/car-service/static/js/2.6297d68c.chunk.js"
   },
   {
-    "revision": "52e53e13ea8e84e0fa64",
-    "url": "/car-service/static/js/main.dc3dc130.chunk.js"
+    "revision": "c4ee57602782013d0ad7",
+    "url": "/car-service/static/js/main.a319fba4.chunk.js"
   },
   {
     "revision": "093099d5c010518a6a2c",
