@@ -12,9 +12,13 @@
     background-color: rgb(232, 232, 232);
 }
 
+
+
 .contact__div {
     flex-basis: 25%;
 }
+
+
 
 .contact__div {
     display: flex;
@@ -70,4 +74,23 @@
 .contact__clock {
     color: orange;
 
+}
+
+@media (max-width: 900px) {
+    .contact {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    .contact__div {
+        padding: 10px;
+    }
+
+    .contact__logo {
+        display: none;
+    }
+
+    .contact__div {
+        flex-basis: 30%;
+    }
 }

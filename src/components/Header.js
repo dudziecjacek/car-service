@@ -36,7 +36,7 @@ class Header extends React.Component {
                             <i className="fa fa-clock-o contact__clock" aria-hidden="true"></i>
                         </div>
                         <div className="contact__info">
-                            <h2 className="contact__header">Godziny otwarcia</h2>
+                            <h2 className="contact__header">Godziny pracy</h2>
                             <p className="contact__paragraph">{this.props.hours}</p>
                         </div>
                     </div>
