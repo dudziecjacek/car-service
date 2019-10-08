@@ -18,7 +18,7 @@ class Navbar extends React.Component {
                     <li className="nav__item"><a className="nav__link" alt="contact" href="#contact">Home</a></li>
                     <li className="nav__item"><a className="nav__link" alt="services" href="#services">Usługi</a></li>
                     <li className="nav__item"><a className="nav__link" alt="carousel" href="#carousel">Galeria</a></li>
-                    <li className="nav__item"><a className="nav__link" alt="contact" href="#contact">Kontakt</a></li>
+                    <li className="nav__item"><a className="nav__link" alt="contact" href="#contactMe">Mapa</a></li>
                     <li className="nav__item"><a className="nav__link" alt="about" href="#about">O nas</a></li>
                 </ul>
             </section>

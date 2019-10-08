@@ -6,6 +6,7 @@ import service3 from '../img/service3.jpg';
 import service4 from '../img/service4.jpg';
 import service5 from '../img/service5.jpg';
 import service6 from '../img/service6.jpg';
+import service7 from '../img/service7.jpg';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 configureAnchors({ offset: -80, scrollDuration: 400 })
@@ -62,6 +63,13 @@ class Services extends React.Component {
                         <div className="services__inner">
                             <h2 className="services__header">Wymiana tarcz i klocków hamulcowych</h2>
                             <p className="services__p">Kompleksowa usługa wymiany układu rozrządu zarówno paski jak i łańcuchy. Cena jest uzależniona od marki/ modelu samochodu.</p>
+                        </div>
+                    </div>
+                    <div className="services__container">
+                        <img className="services__img" src={service7} alt="service" />
+                        <div className="services__inner">
+                            <h2 className="services__header">Wymiana rozrządu</h2>
+                            <p className="services__p">Czas trwania jest zróżnicowany • 150zł - 1700zł. Kompleksowa usługa wymiany układu rozrządu zarówno paski jak i łańcuchy. Cena jest uzależniona od marki/ modelu samochodu.</p>
                         </div>
                     </div>
                 </section>
