@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e6548beb9ce8739ea3da3becf0e6134",
+    "revision": "743a0e10f441c3c6c0ec40dba0376989",
     "url": "/car-service/index.html"
   },
   {
-    "revision": "f581f4f50e3a79983f20",
-    "url": "/car-service/static/css/2.9ebbbe98.chunk.css"
+    "revision": "fa65c47888725eb7fa4e",
+    "url": "/car-service/static/css/2.1cb1bb0d.chunk.css"
   },
   {
-    "revision": "c4ee57602782013d0ad7",
-    "url": "/car-service/static/css/main.3e8a4933.chunk.css"
+    "revision": "74efed860aca0aaacf57",
+    "url": "/car-service/static/css/main.99649600.chunk.css"
   },
   {
-    "revision": "f581f4f50e3a79983f20",
-    "url": "/car-service/static/js/2.6297d68c.chunk.js"
+    "revision": "fa65c47888725eb7fa4e",
+    "url": "/car-service/static/js/2.f992882e.chunk.js"
   },
   {
-    "revision": "c4ee57602782013d0ad7",
-    "url": "/car-service/static/js/main.a319fba4.chunk.js"
+    "revision": "74efed860aca0aaacf57",
+    "url": "/car-service/static/js/main.c5c8d84a.chunk.js"
   },
   {
     "revision": "093099d5c010518a6a2c",
@@ -58,26 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/car-service/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "74515d29ca36fadadca57ef6106812cb",
-    "url": "/car-service/static/media/img1.74515d29.jpg"
-  },
-  {
-    "revision": "048436249e91a6b41fa356c84900cca0",
-    "url": "/car-service/static/media/img2.04843624.jpg"
-  },
-  {
-    "revision": "f61fecdcc26599d72cd19e3d0c86bbb4",
-    "url": "/car-service/static/media/img3.f61fecdc.jpg"
-  },
-  {
-    "revision": "b6ed1437db1b8931cd5e8b2b214fe589",
-    "url": "/car-service/static/media/img4.b6ed1437.jpg"
-  },
-  {
-    "revision": "32dc4b0ee23394782329a553a3aa8994",
-    "url": "/car-service/static/media/img5.32dc4b0e.jpg"
   },
   {
     "revision": "02e7e9588dee911bab8f3e5ac2665da5",
