@@ -19,6 +19,38 @@ class Services extends React.Component {
         }
     }
 
+    componentDidMount() {
+        const services = [];
+        let activeServices = 0;
+        const containers = document.querySelectorAll('.services__container');
+        containers.forEach(el => {
+            services.push(el.offsetTop)
+        })
+
+        const debounce = (func, delay) => {
+            let inDebounce
+            return function () {
+                const context = this
+                const args = arguments
+                clearTimeout(inDebounce)
+                inDebounce = setTimeout(() => func.apply(context, args), delay)
+            }
+        }
+
+        const handleScroll = () => {
+            if (activeServices >= containers.length) window.removeEventListener('scroll', handleScroll);
+            const windowHeightScroll = window.scrollY + window.innerHeight + 50;
+            containers.forEach(el => {
+                if (windowHeightScroll > el.offsetTop && !el.className.includes('active')) {
+                    activeServices += 1;
+                    el.classList.add('active')
+                }
+            })
+        }
+
+        window.addEventListener('scroll', debounce(handleScroll, 10))
+    }
+
     render() {
         return (
             <ScrollableAnchor id={'services'}>

@@ -1,10 +1,17 @@
 import React from 'react';
 import './Navbar.css';
+import 'font-awesome/css/font-awesome.min.css';
+// import { deepStrictEqual } from 'assert';
 
 class Navbar extends React.Component {
     constructor() {
         super()
         this.myRef = React.createRef();
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        document.querySelector('.nav').classList.toggle('active')
     }
 
     scroll(ref) {
@@ -13,15 +20,21 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <section className="nav">
-                <ul className="nav__list">
-                    <li className="nav__item"><a className="nav__link" alt="contact" href="#contact">Home</a></li>
-                    <li className="nav__item"><a className="nav__link" alt="services" href="#services">Usługi</a></li>
-                    <li className="nav__item"><a className="nav__link" alt="carousel" href="#carousel">Galeria</a></li>
-                    <li className="nav__item"><a className="nav__link" alt="contact" href="#contactMe">Mapa</a></li>
-                    <li className="nav__item"><a className="nav__link" alt="about" href="#about">O nas</a></li>
-                </ul>
-            </section>
+            <>
+
+                <section className="nav">
+                    <div className="nav__burger" onClick={this.handleClick}>
+                        <i className="fa fa-bars" aria-hidden="true"></i> Menu
+                    </div>
+                    <ul className="nav__list">
+                        <li className="nav__item"><a className="nav__link" alt="contact" href="#contact">Home</a></li>
+                        <li className="nav__item"><a className="nav__link" alt="services" href="#services">Usługi</a></li>
+                        <li className="nav__item"><a className="nav__link" alt="contact" href="#contactMe">Mapa</a></li>
+                        <li className="nav__item"><a className="nav__link" alt="about" href="#about">O nas</a></li>
+                        <li className="nav__item"><a className="nav__link" alt="carousel" href="#carousel">Galeria</a></li>
+                    </ul>
+                </section>
+            </>
         )
     }
 }

@@ -2,15 +2,24 @@
     /* padding: 100px 20px; */
     display: flex;
     /* background-color: #ddd; */
+    background-color: rgb(70, 70, 70);
 }
 
 .about__textContainer {
     padding: 20px;
     flex-grow: 1;
-    background-color: rgb(70, 70, 70);
+
     text-align: left;
     color: white;
     font-weight: light;
+    opacity: 0;
+    color: orange;
+    transition: 1s;
+}
+
+.about.active .about__textContainer {
+    opacity: 1;
+    color: white;
 }
 
 .about__imgContainer {
@@ -39,7 +48,6 @@
 }
 
 .about__item {
-    cursor: pointer;
     list-style-image: url('../img/list.png');
     flex-basis: 50%;
     transition: .2s;
@@ -47,4 +55,20 @@
 
 .about__item:hover {
     color: orange;
+}
+
+@media (max-width: 576px) {
+    .about__imgContainer {
+        display: none;
+    }
+
+    .about__list {
+        margin-left: 20px;
+    }
+
+    .about__item {
+        /* list-style-image: none; */
+        flex-basis: 100%;
+        padding: 5px 0;
+    }
 }

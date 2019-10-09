@@ -4,12 +4,16 @@
 }
 
 .contact {
+    /* width: 100vw; */
+    background-color: rgb(232, 232, 232);
+}
+
+.contact__wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 980px;
     margin: 0 auto;
-    background-color: rgb(232, 232, 232);
 }
 
 
@@ -84,6 +88,7 @@
 
     .contact__div {
         padding: 10px;
+        justify-content: center;
     }
 
     .contact__logo {
@@ -92,5 +97,30 @@
 
     .contact__div {
         flex-basis: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact__header {
+        display: none;
+    }
+
+    .contact {
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .contact__div {
+        flex-basis: 40%;
+        font-size: 1.3em;
+    }
+
+    .contact__div:last-child {
+        flex-basis: 50%;
     }
 }
