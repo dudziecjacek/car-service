@@ -9,7 +9,7 @@ import img5 from '../img/gallery/img5.jpg';
 
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
-configureAnchors({ offset: -80, scrollDuration: 400 })
+configureAnchors({ offset: -60, scrollDuration: 400 })
 
 const images = [
     img1, img2, img3, img4, img5

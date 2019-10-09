@@ -1,15 +1,14 @@
 .about {
-    /* padding: 100px 20px; */
     display: flex;
-    /* background-color: #ddd; */
-    background-color: rgb(70, 70, 70);
+    background: linear-gradient(0deg, rgba(70, 70, 70, 0.95), rgba(70, 70, 70, 0.95)), url('../img/blueprint.jpg');
 }
 
 .about__textContainer {
-    padding: 20px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 60px 20px;
     flex-grow: 1;
-
-    text-align: left;
+    text-align: justify;
     color: white;
     font-weight: light;
     opacity: 0;
@@ -22,19 +21,22 @@
     color: white;
 }
 
-.about__imgContainer {
-    /* padding: 20px; */
-    width: 50%;
-    /* margin-right: 20px; */
-    height: 250px;
-    background-image: url('../img/about.jpg');
-    background-color: rgb(70, 70, 70);
-    overflow: hidden;
-
+.about__img {
+    width: 600px;
     display: block;
-    background-size: cover;
-    background-position: top right;
-    background-repeat: no-repeat;
+    margin: 40px auto;
+    margin-top: 0;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+span.orange {
+    color: orange
+}
+
+.about__header {
+    text-align: center;
+    font-size: 26px;
 }
 
 .about__list {
@@ -43,23 +45,32 @@
     font-size: 16px;
     display: flex;
     flex-wrap: wrap;
-
     margin-left: 40px;
+    padding: 0 40px;
 }
 
 .about__item {
     list-style-image: url('../img/list.png');
     flex-basis: 50%;
     transition: .2s;
+    text-align: left;
 }
 
 .about__item:hover {
     color: orange;
 }
 
+@media (max-width: 768px) {
+    .about__img {
+        width: 400px;
+    }
+
+}
+
 @media (max-width: 576px) {
-    .about__imgContainer {
-        display: none;
+
+    .about__img {
+        width: 300px;
     }
 
     .about__list {

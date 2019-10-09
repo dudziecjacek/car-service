@@ -4,7 +4,7 @@ import logo from '../img/logo.jpg';
 import 'font-awesome/css/font-awesome.min.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
-configureAnchors({ offset: -80, scrollDuration: 400 })
+configureAnchors({ offset: -60, scrollDuration: 400 })
 
 class Header extends React.Component {
     constructor(props) {
@@ -27,7 +27,7 @@ class Header extends React.Component {
                                 <i className="fa fa-map-marker contact__clock"></i>
                             </div>
                             <div className="contact__info">
-                                <h2 className="contact__header">Lokalizacja</h2>
+                                <h2 className="contact__header">Adres</h2>
                                 <p className="contact__paragraph">{this.props.location}</p>
                             </div>
 

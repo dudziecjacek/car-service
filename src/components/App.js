@@ -11,7 +11,7 @@ import Contact from './Contact'
 function App() {
   return (
     <div className="App">
-      <Header location="Pęcz 15, Strzelin" days="Pn.-Pt." hours="08:30-17:30" imgUrl="../img/logo.jpg" phone="564 345 345" />
+      <Header location="Pęcz 15, Strzelin" days="Pon.-Pt." hours="08:30-17:30" imgUrl="../img/logo.jpg" phone="564 345 345" />
       <Navbar />
       <Hero />
       <Services />

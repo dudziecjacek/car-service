@@ -84,6 +84,8 @@
     .contact {
         padding: 10px;
         overflow-x: hidden;
+
+        margin-top: 60px;
     }
 
     .contact__div {
