@@ -26,7 +26,7 @@ class About extends React.Component {
     handleScroll = () => {
         const section = document.querySelector('.about');
         const windowHeightScroll = window.scrollY + window.innerHeight;
-        if (windowHeightScroll > section.offsetTop + 150) {
+        if (windowHeightScroll > section.offsetTop + 450) {
             section.classList.add('active')
             window.removeEventListener('scroll', this.debounced, false)
         }
