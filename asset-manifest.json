@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/car-service/static/css/main.99649600.chunk.css",
-    "main.js": "/car-service/static/js/main.c5c8d84a.chunk.js",
-    "main.js.map": "/car-service/static/js/main.c5c8d84a.chunk.js.map",
+    "main.css": "/car-service/static/css/main.9bf8a51d.chunk.css",
+    "main.js": "/car-service/static/js/main.9f34d26d.chunk.js",
+    "main.js.map": "/car-service/static/js/main.9f34d26d.chunk.js.map",
     "runtime-main.js": "/car-service/static/js/runtime-main.e372b0c6.js",
     "runtime-main.js.map": "/car-service/static/js/runtime-main.e372b0c6.js.map",
-    "static/css/2.1cb1bb0d.chunk.css": "/car-service/static/css/2.1cb1bb0d.chunk.css",
-    "static/js/2.f992882e.chunk.js": "/car-service/static/js/2.f992882e.chunk.js",
-    "static/js/2.f992882e.chunk.js.map": "/car-service/static/js/2.f992882e.chunk.js.map",
+    "static/css/2.38a7b9c5.chunk.css": "/car-service/static/css/2.38a7b9c5.chunk.css",
+    "static/js/2.2e205ed4.chunk.js": "/car-service/static/js/2.2e205ed4.chunk.js",
+    "static/js/2.2e205ed4.chunk.js.map": "/car-service/static/js/2.2e205ed4.chunk.js.map",
     "index.html": "/car-service/index.html",
-    "precache-manifest.7141a2c8377e730ea70430ad6eef86de.js": "/car-service/precache-manifest.7141a2c8377e730ea70430ad6eef86de.js",
+    "precache-manifest.7f511eee6e70d86bf311f93f1edf4af4.js": "/car-service/precache-manifest.7f511eee6e70d86bf311f93f1edf4af4.js",
     "service-worker.js": "/car-service/service-worker.js",
-    "static/css/2.1cb1bb0d.chunk.css.map": "/car-service/static/css/2.1cb1bb0d.chunk.css.map",
-    "static/css/main.99649600.chunk.css.map": "/car-service/static/css/main.99649600.chunk.css.map",
-    "static/media/About.css": "/car-service/static/media/about.4aa2e5cd.jpg",
+    "static/css/2.38a7b9c5.chunk.css.map": "/car-service/static/css/2.38a7b9c5.chunk.css.map",
+    "static/css/main.9bf8a51d.chunk.css.map": "/car-service/static/css/main.9bf8a51d.chunk.css.map",
+    "static/media/about.jpg": "/car-service/static/media/about.4aa2e5cd.jpg",
     "static/media/background1.jpg": "/car-service/static/media/background1.defd9d30.jpg",
     "static/media/background2.jpg": "/car-service/static/media/background2.5278394b.jpg",
     "static/media/background3.jpg": "/car-service/static/media/background3.e1d16e82.jpg",
+    "static/media/About.css": "/car-service/static/media/blueprint.56e00d75.jpg",
     "static/media/font-awesome.min.css": "/car-service/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/Services.css": "/car-service/static/media/pattern.02e7e958.png"
+    "static/media/marker.png": "/car-service/static/media/marker.330d2085.png",
+    "static/media/Services.css": "/car-service/static/media/pattern.02e7e958.png",
+    "static/media/Contact.css": "/car-service/static/media/road.e8d98db8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e372b0c6.js",
-    "static/css/2.1cb1bb0d.chunk.css",
-    "static/js/2.f992882e.chunk.js",
-    "static/css/main.99649600.chunk.css",
-    "static/js/main.c5c8d84a.chunk.js"
+    "static/css/2.38a7b9c5.chunk.css",
+    "static/js/2.2e205ed4.chunk.js",
+    "static/css/main.9bf8a51d.chunk.css",
+    "static/js/main.9f34d26d.chunk.js"
   ]
 }

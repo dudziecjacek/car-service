@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "743a0e10f441c3c6c0ec40dba0376989",
+    "revision": "21335781739cee73c416c1f9f62a159d",
     "url": "/car-service/index.html"
   },
   {
-    "revision": "fa65c47888725eb7fa4e",
-    "url": "/car-service/static/css/2.1cb1bb0d.chunk.css"
+    "revision": "e71cc12afb5ef1269c41",
+    "url": "/car-service/static/css/2.38a7b9c5.chunk.css"
   },
   {
-    "revision": "74efed860aca0aaacf57",
-    "url": "/car-service/static/css/main.99649600.chunk.css"
+    "revision": "5e16fc191a358208c5a0",
+    "url": "/car-service/static/css/main.9bf8a51d.chunk.css"
   },
   {
-    "revision": "fa65c47888725eb7fa4e",
-    "url": "/car-service/static/js/2.f992882e.chunk.js"
+    "revision": "e71cc12afb5ef1269c41",
+    "url": "/car-service/static/js/2.2e205ed4.chunk.js"
   },
   {
-    "revision": "74efed860aca0aaacf57",
-    "url": "/car-service/static/js/main.c5c8d84a.chunk.js"
+    "revision": "5e16fc191a358208c5a0",
+    "url": "/car-service/static/js/main.9f34d26d.chunk.js"
   },
   {
     "revision": "093099d5c010518a6a2c",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/car-service/static/media/background3.e1d16e82.jpg"
   },
   {
+    "revision": "56e00d7573a6a58d6c269222a3ca99b4",
+    "url": "/car-service/static/media/blueprint.56e00d75.jpg"
+  },
+  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/car-service/static/media/fontawesome-webfont.674f50d2.eot"
   },
@@ -60,7 +64,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/car-service/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
+    "revision": "330d208573233159b6be60282980d2f9",
+    "url": "/car-service/static/media/marker.330d2085.png"
+  },
+  {
     "revision": "02e7e9588dee911bab8f3e5ac2665da5",
     "url": "/car-service/static/media/pattern.02e7e958.png"
+  },
+  {
+    "revision": "e8d98db86a448fae3a8d491f2792f7d4",
+    "url": "/car-service/static/media/road.e8d98db8.jpg"
   }
 ]);
