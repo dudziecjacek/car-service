@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import '../styles/Services.css';
 import service1 from '../img/service1.jpg';
 import service2 from '../img/service2.jpg';
 import service3 from '../img/service3.jpg';
@@ -8,8 +8,6 @@ import service5 from '../img/service5.jpg';
 import service6 from '../img/service6.jpg';
 import service7 from '../img/service7.jpg';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
-configureAnchors({ offset: -60, scrollDuration: 400 })
 
 class Services extends React.Component {
     constructor() {

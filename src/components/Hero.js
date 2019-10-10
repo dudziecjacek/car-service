@@ -1,6 +1,6 @@
 import React from 'react';
 import { Zoom } from 'react-slideshow-image';
-import './Hero.css';
+import '../styles/Hero.css';
 import bg1 from '../img/background1.jpg';
 import bg2 from '../img/background2.jpg';
 import bg3 from '../img/background3.jpg';

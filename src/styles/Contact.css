@@ -1,7 +1,7 @@
 .contactMe {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../img/road.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
 }
 
 .contactMe__wrapper {
@@ -27,6 +27,7 @@
     background-color: rgba(60, 60, 60, 0.8);
     color: white;
     border: 2px solid white;
+
 }
 
 .contactMe__header {
@@ -70,6 +71,7 @@
     .contactMe__item {
         flex-basis: 60%;
         margin-top: 50px;
+
     }
 
     .contactMe__map {

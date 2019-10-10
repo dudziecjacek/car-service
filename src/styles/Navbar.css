@@ -21,11 +21,10 @@
 
 .nav__item {
     flex-basis: 15%;
-    /* height: 80px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
+    text-transform: uppercase;
 }
 
 

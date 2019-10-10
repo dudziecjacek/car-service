@@ -1,10 +1,8 @@
 import React from 'react';
 import Map from './Map'
-import './Contact.css'
+import '../styles/Contact.css'
 import 'font-awesome/css/font-awesome.min.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
-configureAnchors({ offset: -60, scrollDuration: 400 })
 
 class Contact extends React.Component {
 

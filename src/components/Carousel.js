@@ -1,6 +1,6 @@
 import React from 'react';
 import { Zoom } from 'react-slideshow-image';
-import './Carousel.css';
+import '../styles/Carousel.css';
 import img1 from '../img/gallery/img1.jpg';
 import img2 from '../img/gallery/img2.jpg';
 import img3 from '../img/gallery/img3.jpg';
@@ -8,8 +8,6 @@ import img4 from '../img/gallery/img4.jpg';
 import img5 from '../img/gallery/img5.jpg';
 
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
-configureAnchors({ offset: -60, scrollDuration: 400 })
 
 const images = [
     img1, img2, img3, img4, img5

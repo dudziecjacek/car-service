@@ -1,10 +1,8 @@
 import React from 'react';
-import './Header.css';
+import '../styles/Header.css';
 import logo from '../img/logo.jpg';
 import 'font-awesome/css/font-awesome.min.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
-configureAnchors({ offset: -60, scrollDuration: 400 })
 
 class Header extends React.Component {
     constructor(props) {
@@ -28,7 +26,7 @@ class Header extends React.Component {
                             </div>
                             <div className="contact__info">
                                 <h2 className="contact__header">Adres</h2>
-                                <p className="contact__paragraph">{this.props.location}</p>
+                                <p className="contact__paragraph">{this.props.location}<br />{this.props.post}</p>
                             </div>
 
                         </div>

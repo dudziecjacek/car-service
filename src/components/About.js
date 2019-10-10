@@ -1,9 +1,8 @@
 import React from 'react';
-import './About.css';
+import '../styles/About.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
 import about from '../img/about.jpg'
-configureAnchors({ offset: -60, scrollDuration: 400 })
+console.log(window.innerWidth);
 
 class About extends React.Component {
 
