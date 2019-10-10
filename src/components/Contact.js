@@ -32,7 +32,7 @@ class Contact extends React.Component {
                                 <p className="contactMe__paragraph">mailme@gmail.com</p>
                             </div>
                             <div>
-                                <a className="contactMe__social" href="https://www.facebook.com/vagtechwalukiewicz/" alt="facebook website"><i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a className="contactMe__social" href="https://www.facebook.com/vagtechwalukiewicz/" alt="facebook website">  <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/About.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import about from '../img/about.jpg'
-console.log(window.innerWidth);
 
 class About extends React.Component {
 
@@ -25,7 +24,7 @@ class About extends React.Component {
     handleScroll = () => {
         const section = document.querySelector('.about');
         const windowHeightScroll = window.scrollY + window.innerHeight;
-        if (windowHeightScroll > section.offsetTop + 450) {
+        if (windowHeightScroll > section.offsetTop + 380) {
             section.classList.add('active')
             window.removeEventListener('scroll', this.debounced, false)
         }

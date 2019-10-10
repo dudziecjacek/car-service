@@ -47,6 +47,7 @@ span.orange {
     flex-wrap: wrap;
     margin-left: 40px;
     padding: 0 40px;
+    cursor: default;
 }
 
 .about__item {

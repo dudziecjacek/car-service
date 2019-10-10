@@ -1,0 +1,22 @@
+.footer {
+    max-width: 100%;
+    padding: 20px 80px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+    .footer {
+        max-width: 100%;
+        padding: 20px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__paragraph {
+        margin: 5px 0;
+    }
+}

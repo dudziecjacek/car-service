@@ -1,0 +1,22 @@
+.reviews {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/background_reviews.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.reviews__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+
+@media (max-width: 768px) {
+    .reviews__wrapper {
+        padding: 20px 0px;
+    }
+}
